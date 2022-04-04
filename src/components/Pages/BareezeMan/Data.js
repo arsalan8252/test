@@ -1,0 +1,87 @@
+export const FilterData = [
+    {
+        price : [8550,11500,'12500','6750'],
+        color : ["off white","brown white","white","black"],
+        type : ['unstitched'],
+        fabric : ['khaddar','pima cotton','egyptian cotton'],
+        season : ['winter'],
+    },
+]
+
+
+export const ProductData = [
+    {
+        id: 1,
+        name : 'handmade khaddar',
+        price : '8550',
+        category : 'bareezeMan',
+        fabric : 'khaddar',
+        color : 'off white',
+        type : 'unstitched',
+        season : 'winter',
+        rating : 3,
+        img1 : 'https://drive.google.com/file/d/18aPZoPq1h_PZJXcAD3ncPnO4E7JXZfoj/view?usp=sharing',
+        img2 : 'https://drive.google.com/file/d/1ss7ziCVXmmz2v06foQj3hDcTOcwz9ANZ/view?usp=sharing',
+        description : 'lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text',
+
+    },
+    {
+        id: 2,
+        name : 'embroidered gyptian cotton',
+        price : '11500',
+        category : 'bareezeMan',
+        fabric : 'egyptian cotton',
+        color : 'brown white',
+        type : 'unstitched',
+        season : 'winter',
+        rating : 3.4,
+        img1 : '/assests/images/bareezeMan/manBrown1.jpg',
+        img2 : '/assests/images/bareezeMan/manBrown2.jpg',
+        description : 'lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text',
+    },
+    {
+        id: 3,
+        name : 'pima cotton',
+        price : '12500',
+        category : 'bareezeMan',
+        fabric : 'pima cotton',
+        color : 'white',
+        type : 'unstitched',
+        season : 'winter',
+        rating : 3.6,
+        img1 : '/assests/images/bareezeMan/manWhite1.jpg',
+        img2 : '/assests/images/bareezeMan/manWhite2.jpg',
+        description : 'lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text',
+
+    },
+    {
+        id: 4,
+        name : 'pima cotton',
+        price : '12500',
+        category : 'bareezeMan',
+        fabric : 'pima cotton',
+        color : 'off white',
+        type : 'unstitched',
+        season : 'winter',
+        rating : 4,
+        img1 : '/assests/images/bareezeMan/manOffWhite11.jpg',
+        img2 : '/assests/images/bareezeMan/manOffWhite22.jpg',
+        description : 'lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text',
+
+    },
+    {
+        id: 5,
+        name : 'egyptian cotton',
+        price : '6750',
+        category : 'bareezeMan',
+        fabric : 'egyptian cotton',
+        color : 'black',
+        type : 'unstitched',
+        season : 'winter',
+        rating : 4.1,
+        img1 : '/assests/images/bareezeMan/manBlack1.jpg',
+        img2 : '/assests/images/bareezeMan/manBlack2.jpg',
+        description : 'lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text lorem ipsum is not a dummy text',
+
+    },
+];

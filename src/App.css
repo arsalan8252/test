@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  transition:  all .3s linear;  
+}
+.nav{
+    position: sticky;
+}
+/* common btn style */
+.commonBtn{
+    position: relative;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 12px;
+}
+.commonBtn:hover{
+    background-color: black;
+    color: white !important;
+}
+
+/* img hover effect */
+.myCard .imgHover1{
+    display: block;
+}
+.myCard .imgHover2{
+    display: none;
+}
+.myCard:hover .imgHover1{
+    display: none;
+}
+.myCard:hover .imgHover2{
+    display: block;
+}
+/* casual section */
+.hero{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+/* swiper */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+  }
